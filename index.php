@@ -11,6 +11,7 @@
     $sql = 'SELECT * FROM tb_user';
     $result = getListDatabase($sql);
     var_dump($result);
+    $ressults = true;
 
     ?>
 <body>
